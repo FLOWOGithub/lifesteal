@@ -20,7 +20,7 @@ public class sheepDyed implements Listener {
                     p.getItemInHand().setAmount(p.getItemInHand().getAmount() - 1);
                     p.setMaxHealth(p.getMaxHealth() + 2);
                 } else {
-                    p.sendMessage(ChatColor.RED + "Tu jau pasiekiai 20 širdučių.");
+                    p.sendMessage(ChatColor.RED + "Tu jau pasiekei 20 širdučių.");
                 }
 
             }

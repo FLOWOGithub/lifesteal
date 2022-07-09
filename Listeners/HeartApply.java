@@ -19,7 +19,7 @@ public class HeartApply implements Listener {
                         e.getItem().setAmount(e.getItem().getAmount() - 1);
                         p.setMaxHealth(p.getMaxHealth() + 2);
                     } else {
-                        p.sendMessage(ChatColor.RED + "Tu jau pasiekiai 20 širdučių.");
+                        p.sendMessage(ChatColor.RED + "Tu jau pasiekei 20 širdučių.");
                     }
                 }
             }

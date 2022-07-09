@@ -34,9 +34,12 @@ public class Heart{
         lore.add(ChatColor.DARK_PURPLE + "Bet dabar. Tu. Mirtingasis. Turi šią galią...");
         lore.add(ChatColor.DARK_PURPLE + "Naudok ją atsakingai.");
         lore.add(ChatColor.DARK_PURPLE + "Jei nori galia pasinaudoti.");
-        lore.add(ChatColor.DARK_PURPLE + "Pervadink mane jo vardu.");
-        lore.add(ChatColor.DARK_PURPLE + "To kurį nori sugrąžinti.");
-        lore.add(ChatColor.DARK_PURPLE + "Į šį pasaulį...");
+        lore.add(ChatColor.DARK_PURPLE + "Mane pastatyk ir pastatęs");
+        lore.add(ChatColor.DARK_PURPLE + "pasirink ką nori augrąžinti");
+        lore.add(ChatColor.DARK_PURPLE + "Bet būk atsargus");
+        lore.add(ChatColor.DARK_PURPLE + "Mane pastačius ir nepasirikus");
+        lore.add(ChatColor.DARK_PURPLE + "to kurio nori atgaivinti manęs");
+        lore.add(ChatColor.DARK_PURPLE + "nesusigrąžinsi");
         beaconM.setLore(lore);
         beaconM.setCustomModelData(2);
         beacon.setItemMeta(beaconM);
@@ -49,7 +52,7 @@ public class Heart{
         ItemMeta heartShardM = heartShard.getItemMeta();
         heartShardM.setDisplayName(ChatColor.GOLD + "Širdies šukė");
         List<String> lore = new ArrayList<>();
-        lore.add(ChatColor.DARK_PURPLE + "4 širdied šukės sudėtos su deimantais");
+        lore.add(ChatColor.DARK_PURPLE + "4 širdies šukės sudėtos su deimantais");
         lore.add(ChatColor.DARK_PURPLE + "ir auksiniais obuoliais sukuria gyvybę");
         heartShardM.setLore(lore);
         heartShardM.setCustomModelData(3);
