@@ -1,0 +1,16 @@
+name: LifeSteal
+version: '${project.version}'
+main: me.flowo.lifesteal.Main
+api-version: 1.19
+authors: [ FLOWO ]
+description: Life steal plugin
+commands:
+  withdraw:
+    description: gives you a heart
+    usage: /<command>
+  givebeacon:
+    description: gives you a beacon
+    usage: /<command>
+  recipes:
+    description: shows all recipes
+    usage: /<command>
